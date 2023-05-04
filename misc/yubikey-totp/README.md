@@ -21,7 +21,7 @@ Once the code is gotten, `XIVLauncher` is started for you,  the code is sent thr
 The `.lnk` file was made so that there was a nice little shortcut you could put on your desktop/taskbar for easy access
 
 ## Why I'm writing this
-I figure sometime in the distant [or near] future you'll come back to this and in the event your lost for whatever reason, this'll be here to get the cogs turning
+I figure sometime in the distant [or near] future you'll come back to this and in the event you're lost for whatever reason, this'll be here to get the cogs turning
 - Anything I didn't explain here, you should be able to figure out by ___reading___ the script(s)
 
 It wouldn't be the first time you picked this project back up *6+ months later...*
