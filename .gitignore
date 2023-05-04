@@ -288,3 +288,6 @@ src/Update.exe
 
 # XLCore build directory
 src/XIVLauncher.Core/build
+
+#ENV files
+*.env
