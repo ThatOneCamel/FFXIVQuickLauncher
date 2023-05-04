@@ -628,7 +628,7 @@ namespace XIVLauncher.Windows
                 // Restore the size of the window to what we expect it to be
                 // There's no better way to do it that doesn't make me wanna off myself
                 Width = 845;
-                Height = 376;
+                Height = 392;
             }
             catch (Exception ex)
             {

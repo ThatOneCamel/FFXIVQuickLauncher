@@ -88,6 +88,8 @@ namespace XIVLauncher.Windows
             this.EnableHooksCheckBox.Checked += this.EnableHooksCheckBox_OnChecked;
 
             OtpServerCheckBox.IsChecked = App.Settings.OtpServerEnabled;
+            if (OtpServerCheckBox.IsChecked == true)
+                OtpYubikeyCheckBox.IsChecked = App.Settings.OtpYubikeyEnabled;
 
             LaunchArgsTextBox.Text = App.Settings.AdditionalLaunchArgs;
 
@@ -138,6 +140,8 @@ namespace XIVLauncher.Windows
                 App.Settings.InGameAddonLoadMethod = DalamudLoadMethod.EntryPoint;
 
             App.Settings.OtpServerEnabled = OtpServerCheckBox.IsChecked == true;
+
+            App.Settings.OtpYubikeyEnabled = OtpYubikeyCheckBox.IsChecked == true;
 
             App.Settings.AdditionalLaunchArgs = LaunchArgsTextBox.Text;
 

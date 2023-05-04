@@ -12,7 +12,7 @@
     mc:Ignorable="d"
     Title="XIVLauncher"
     Width="845"
-    Height="376"
+    Height="392"
     ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen"
     Icon="pack://application:,,,/Resources/dalamud_icon.ico"
     TextElement.Foreground="{DynamicResource MaterialDesignBody}"

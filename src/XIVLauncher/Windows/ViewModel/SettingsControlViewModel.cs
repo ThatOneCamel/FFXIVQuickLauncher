@@ -72,6 +72,8 @@ namespace XIVLauncher.Windows.ViewModel
             OtpServerTooltipLoc = Loc.Localize("OtpServerTooltip", "This will allow you to send your OTP code to XIVLauncher directly from your phone.\nClick \"Learn more\" to see how to set this up.");
             LearnMoreLoc = Loc.Localize("LearnMore", "Learn More");
             OtpLearnMoreTooltipLoc = Loc.Localize("OtpLearnMoreTooltipLoc", "Open a guide in your web browser.");
+            OtpYubikeyCheckBoxLoc = Loc.Localize("OtpYubikeyCheckBox", "Enable Yubikey-based authentication");
+            OtpYubikeyTooltipLoc = Loc.Localize("OtpYubikeyTooltip", "This will allow you to input your OTP code to XIVLauncher directly from touching your Yubikey.\nClick \"Learn more\" to see how to set this up.");
             AdditionalArgumentsLoc = Loc.Localize("AdditionalArguments", "Additional launch arguments");
             ChooseDpiAwarenessLoc = Loc.Localize("ChooseDpiAwareness", "Game DPI Awareness");
             DpiAwarenessAwareLoc = Loc.Localize("DpiAwarenessAware", "Aware");
@@ -179,6 +181,8 @@ namespace XIVLauncher.Windows.ViewModel
         public string OtpServerTooltipLoc { get; private set; }
         public string LearnMoreLoc { get; private set; }
         public string OtpLearnMoreTooltipLoc { get; private set; }
+        public string OtpYubikeyCheckBoxLoc { get; private set; }
+        public string OtpYubikeyTooltipLoc { get; private set; }
         public string AdditionalArgumentsLoc { get; private set; }
         public string ChooseDpiAwarenessLoc { get; private set; }
         public string ChooseDpiAwarenessHintLoc { get; private set; }

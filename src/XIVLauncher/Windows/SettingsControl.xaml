@@ -53,8 +53,11 @@
                     </StackPanel>
 
                     <CheckBox Foreground="{DynamicResource MaterialDesignBody}"
-                              x:Name="AutoStartSteamCheckBox" Margin="0,15,0,0" Content="{Binding AutoStartSteamLoc}" ToolTip="{Binding AutoStartSteamTooltipLoc}" />
-                    
+                                  x:Name="OtpYubikeyCheckBox" Margin="20, 0, 0, 0" Content="{Binding OtpYubikeyCheckBoxLoc}" ToolTip="{Binding OtpYubikeyTooltipLoc}"/>
+
+                    <CheckBox Foreground="{DynamicResource MaterialDesignBody}"
+                              x:Name="AutoStartSteamCheckBox" Margin="0,10,0,0" Content="{Binding AutoStartSteamLoc}" ToolTip="{Binding AutoStartSteamTooltipLoc}" />
+
                     <TextBox Width="500" VerticalAlignment="Center"
                              HorizontalAlignment="Left" Foreground="{DynamicResource MaterialDesignBody}"
                              Margin="0,5,0,0" x:Name="LaunchArgsTextBox" materialDesign:HintAssist.Hint="{Binding AdditionalArgumentsLoc}" materialDesign:HintAssist.IsFloating="True"/>
@@ -88,14 +91,14 @@
                     <TextBlock x:Name="Dx9DisclaimerTextBlock" Visibility="Collapsed"
                                HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="OrangeRed"
                                Margin="0,0,0,0" Text="{Binding DirectX9NoticeLoc}" />
-                    
+
                     <CheckBox x:Name="IsFreeTrialCheckbox" Click="IsFreeTrialCheckbox_OnClick"
                               Content="{Binding IsFreeTrialLoc}" Foreground="{DynamicResource MaterialDesignBody}"
                               HorizontalAlignment="Left" Margin="0,15,0,15" />
-                    
+
                     <TextBlock HorizontalAlignment="Left" VerticalAlignment="Top"
                                Foreground="{DynamicResource MaterialDesignBody}" Text="{Binding ChooseLanguageLoc}" />
-                    
+
                     <ComboBox SelectedIndex="1" Margin="0, 3, 15, 0" x:Name="LanguageComboBox"
                               Foreground="{DynamicResource MaterialDesignBody}">
                         <ComboBoxItem>日本語</ComboBoxItem>
@@ -335,7 +338,7 @@
                                         <TextBlock Margin="8 0 0 0" VerticalAlignment="Center" Text="{Binding StartOriginalLauncherLoc}"/>
                                     </StackPanel>
                                 </Button>
-                                
+
                                 <Button Style="{DynamicResource MaterialDesignFlatButton}"
                                         HorizontalAlignment="Left"
                                         Click="OpenAdvancedSettings_OnClick" Margin="10 0 0 0">
